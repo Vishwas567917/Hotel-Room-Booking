@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hotel Room Booking</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<header>
+		<h1>Hotel Room Booking</h1>
+	</header>
+	<main>
+		<section id="rooms">
+			<h2>Select a Room</h2>
+			<div class="room">
+				<img src="room1.jpg" alt="Room 1">
+				<h3>Room 1</h3>
+				<p>$100 per night</p>
+				<button id="book-btn-1" data-room-id="1">Book</button>
+			</div>
+			<div class="room">
+				<img src="room2.jpg" alt="Room 2">
+				<h3>Room 2</h3>
+				<p>$150 per night</p>
+				<button id="book-btn-2" data-room-id="2">Book</button>
+			</div>
+			<div class="room">
+				<img src="room3.jpg" alt="Room 3">
+				<h3>Room 3</h3>
+				<p>$200 per night</p>
+				<button id="book-btn-3" data-room-id="3">Book</button>
+			</div>
+		</section>
+		<section id="booking-form" hidden>
+			<h2>Booking Form</h2>
+			<form id="booking-form-inner">
+				<label for="name">Name:</label>
+				<input type="text" id="name" required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" required>
+				<label for="start-date">Start Date:</label>
+				<input type="date" id="start-date" required>
+				<label for="end-date">End Date:</label>
+				<input type="date" id="end-date" required>
+				<button id="submit-btn">Book Room</button>
+			</form>
+		</section>
+		<div id="booking-success" hidden>
+			<h2>Booking Successful!</h2>
+			<p>Your room has been booked successfully.</p>
+		</div>
+	</main>
+	<script src="script.js"></script>
+</body>
+</html>

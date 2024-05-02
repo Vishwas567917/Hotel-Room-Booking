@@ -1,0 +1,84 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+#rooms {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.room {
+	margin: 20px;
+	width: 250px;
+	border: 1px solid #ddd;
+	padding: 20px;
+}
+
+.room img {
+	width: 100%;
+	height: 150px;
+	object-fit: cover;
+}
+
+.room h3 {
+	margin-top: 0;
+}
+
+#booking-form {
+	background-color: #f7f7f7;
+	padding: 20px;
+	border: 1px solid #ddd;
+}
+
+#booking-form-inner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+label {
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="date"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button[type="submit"]:hover {
+	background-color: #444;
+}
+
+#booking-success {
+	background-color: #f7f7f7;
+	padding: 20px;
+	border: 1px solid #ddd;
+}
