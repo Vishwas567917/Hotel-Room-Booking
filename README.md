@@ -10,6 +10,9 @@ The application has the following features:
 - **Booking Form:** After selecting a room, users can fill in their name, email, and booking dates to book the room.
 - **Booking Success Message:** After a successful booking, a confirmation message is displayed.
 
+  ![picture](https://github.com/Vishwas567917/Hotel-Room-Booking/assets/139749696/94636f10-eaf9-4329-a9ab-a055da2f1ebf)
+
+
 ## Code Structure
 
 - **HTML:** Contains the structure of the application, including sections for room selection, booking form, and success message.
